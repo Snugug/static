@@ -1,5 +1,4 @@
-static
-======
+# static
 
 Static is a static site generation tool utilizing Grunt. It uses [Grunt Generator](https://github.com/clavery/grunt-generator) for HTML generation and [Sass](http://sass-lang.com) and [Compass](http://compass-style.org) for CSS generation. It will minify your PNG, JPG, and SVG images and JSHint and Uglify your JavaScript.
 
