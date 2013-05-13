@@ -1,6 +1,6 @@
 # static
 
-Static is a static site generation tool utilizing Grunt. It uses [Grunt Generator](https://github.com/clavery/grunt-generator) for HTML generation and [Sass](http://sass-lang.com) and [Compass](http://compass-style.org) for CSS generation. It will minify your PNG, JPG, and SVG images and JSHint and Uglify your JavaScript.
+Static is a static site generation tool utilizing Grunt. It uses [Grunt Generator](https://github.com/clavery/grunt-generator) for HTML generation and [Sass](http://sass-lang.com) and [Compass](http://compass-style.org) for CSS generation. It will also minify your PNG, JPG, and SVG images and JSHint and Uglify your JavaScript. It's equally suited for rapid prototyping, blogging, site creation, really anything you'd like to throw at it. Enjoy! 
 
 ## Static Server
 
@@ -16,4 +16,4 @@ If you would like to export your built site to a folder, you can run `grunt expo
 
 ## Static Deploy
 
-If you're using this to build GitHub pages, you can easily deploy to a `gh-pages` branch in a similar manner to how [Yeoman deploys work](https://github.com/yeoman/yeoman/wiki/Deployment). Make sure this is not in your `gh-pages` branch, and your `gh-pages` branch either doesn't exist, or has only been built using the Deploy command. When you're ready to deploy to `gh-pages`, run `grunt deploy`
+If you're using this to build GitHub pages, you can easily deploy to a `gh-pages` branch in a similar manner to how [Yeoman deploys work](https://github.com/yeoman/yeoman/wiki/Deployment). Make sure this is not in your `gh-pages` branch, and your `gh-pages` branch either doesn't exist, or has only been built using the Deploy command. When you're ready to deploy to `gh-pages`, run `grunt deploy`. If you're using this to create your User or Organization GitHub page, those are built off of the `master` branch instead of the `gh-pages` branch. Because of this, you are going to need to roll these deploys by hand for the time being.
