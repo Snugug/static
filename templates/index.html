@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>{{#if page.title}}{{page.title}}{{else}}Hello World{{/if}}</title>
+    <link rel="stylesheet" type="text/css" href="{{options.assets}}/css/style.css">
+  </head>
+
+  <body>
+    {{{body}}}
+
+  {{#if options.development}}
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':{{options.lrport}}/livereload.js?snipver=1"></' + 'script>')
+    </script>
+  {{/if}}
+  </body>
+</html>
