@@ -1,0 +1,11 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "dependencies": {
+    "formalize": "git://github.com/nathansmith/formalize",
+    "angular": "~1.0.6",
+    "angular-modernizr": "latest",
+    "angular-hammerjs": "latest"
+  },
+  "devDependencies": {}
+}
