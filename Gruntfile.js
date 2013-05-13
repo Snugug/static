@@ -290,9 +290,22 @@ module.exports = function (grunt) {
     }
   });
 
+
+  //////////////////////////////
+  // Deploy Task
+  //////////////////////////////
   grunt.registerTask('deploy', [
     'exec:deploy'
   ]);
+
+  //////////////////////////////
+  // Export Tasks
+  //////////////////////////////
+  grunt.registerTask('export', 'Exports your build', function() {
+    var path = grunt.option('to') || 'export';
+
+    grunt.task.run('build', 'exec:export:' + path);
+  });
 
   //////////////////////////////
   // Server Tasks
@@ -316,14 +329,5 @@ module.exports = function (grunt) {
 
     grunt.task.run('watch');
 
-  });
-
-  //////////////////////////////
-  // Export Tasks
-  //////////////////////////////
-  grunt.registerTask('export', 'Exports your build', function() {
-    var path = grunt.option('to') || 'dist';
-
-    grunt.task.run('exec:export:' + path);
   });
 };
