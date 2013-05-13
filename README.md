@@ -1,6 +1,10 @@
 # static
 
-Static is a static site generation tool utilizing Grunt. It uses [Grunt Generator](https://github.com/clavery/grunt-generator) for HTML generation and [Sass](http://sass-lang.com) and [Compass](http://compass-style.org) for CSS generation. It will also minify your PNG, JPG, and SVG images and JSHint and Uglify your JavaScript. It's equally suited for rapid prototyping, blogging, site creation, really anything you'd like to throw at it. Enjoy! 
+Static is a static site generation tool utilizing Grunt. It uses [Grunt Generator](https://github.com/clavery/grunt-generator) for HTML generation and [Sass](http://sass-lang.com) and [Compass](http://compass-style.org) for CSS generation. It will also minify your PNG, JPG, and SVG images and JSHint and Uglify your JavaScript. It's equally suited for rapid prototyping, blogging, site creation, really anything you'd like to throw at it. Enjoy!
+
+## Requirements and Installation
+
+In order to run Static, you are going to need to install [Sass+Compass](http://compass-style.org/install/), [Bundler](http://gembundler.com/#getting-started), [Node.js](http://nodejs.org/), [Grunt](http://gruntjs.com/getting-started), and [Bower](http://bower.io/). Once you have all of those installed, run `bundle install` to install the default Compass extensions, `npm install` to install the Node dependencies, and `bower install` to install the Bower components.
 
 ## Static Server
 
