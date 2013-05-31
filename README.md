@@ -1,5 +1,7 @@
 # static
 
+## static has been turned into [Armadillo](https://github.com/Snugug/generator-armadillo), a generator for Yeoman! Check it out now!
+
 Static is a static site generation tool utilizing Grunt. It uses [Grunt Generator](https://github.com/clavery/grunt-generator) for HTML generation and [Sass](http://sass-lang.com) and [Compass](http://compass-style.org) for CSS generation. It will also minify your PNG, JPG, and SVG images and JSHint and Uglify your JavaScript. It's equally suited for rapid prototyping, blogging, site creation, really anything you'd like to throw at it. Enjoy!
 
 ## Requirements and Installation
